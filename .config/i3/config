@@ -129,9 +129,6 @@ exec --no-startup-id nm-applet
 # lock screen
 bindsym $mod+b exec i3lock -c "#000000"
 
-# touchpad click
-exec --no-startup-id xinput set-prop 11 287 1
-
 # media controls
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
